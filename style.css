@@ -2,15 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    display: flex;
+    flex-direction: column;
+    --bgccolor: #c92a2a;
+    --textcolor: #101010;
+    --width: 200px;
+
 }
 .div1{
-    width: 400px;
+    width: var(--width);
     height: 400px;
-    background-color: red;
+    background-color: var(--bgccolor);
+    color: var(--textcolor);
 }
 .div2{
-    width: 400px;
+    width: var(--width);
     height: 400px;
-    background-color: blue;
+    background-color: var(--bgccolor);
+    color: var(--textcolor);
 }
