@@ -2,20 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
 }
 :root {
-    --bgccolor: #c92a2a;
+    --bgcolor: #c92a2a;
+    --bgcolor2: #1e1ec0;
     --textcolor: #c0ce1e;
     --width: 200px;
     --padding: 20px;
     --textsize: 20px;
 }
+main{
+    display: flex;
+    flex-direction: column;
+}
 .div1{
     width: var(--width);
     height: 400px;
-    background-color: var(--bgccolor);
+    background-color: var(--bgcolor);
     color: var(--textcolor);
     padding: var(--padding);
     font-size: var(--textsize);
@@ -23,9 +26,9 @@
 .div2{
     width: var(--width);
     height: 400px;
-    background-color: var(--bgccolor);
+    background-color: var(--bgcolor2);
     color: var(--textcolor);
     padding: var(--padding);
     font-size: var(--textsize);
-    
 }
+
