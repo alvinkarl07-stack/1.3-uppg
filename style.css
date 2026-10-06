@@ -8,17 +8,24 @@
 :root {
     --bgccolor: #c92a2a;
     --textcolor: #c0ce1e;
-    --widthh: 200px;
+    --width: 200px;
+    --padding: 20px;
+    --textsize: 20px;
 }
 .div1{
-    width: var(--widthh);
+    width: var(--width);
     height: 400px;
     background-color: var(--bgccolor);
     color: var(--textcolor);
+    padding: var(--padding);
+    font-size: var(--textsize);
 }
 .div2{
-    width: var(--widthh);
+    width: var(--width);
     height: 400px;
     background-color: var(--bgccolor);
     color: var(--textcolor);
+    padding: var(--padding);
+    font-size: var(--textsize);
+    
 }
