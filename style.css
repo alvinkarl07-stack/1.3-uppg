@@ -4,19 +4,20 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+}
+:root {
     --bgccolor: #c92a2a;
-    --textcolor: #101010;
-    --width: 200px;
-
+    --textcolor: #c0ce1e;
+    --widthh: 200px;
 }
 .div1{
-    width: var(--width);
+    width: var(--widthh);
     height: 400px;
     background-color: var(--bgccolor);
     color: var(--textcolor);
 }
 .div2{
-    width: var(--width);
+    width: var(--widthh);
     height: 400px;
     background-color: var(--bgccolor);
     color: var(--textcolor);
